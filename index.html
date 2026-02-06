@@ -1,66 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Md Jubair Bin Hasan | Portfolio</title>
-  <meta name="description" content="Civil Engineer | CAD & Structural Drafting | Sustainable Construction" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Jubair bin Hasan | Civil Engineer Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="container">
-    <h1>Md Jubair Bin Hasan</h1>
-    <p class="tagline">Civil Engineer · CAD & Structural Drafting</p>
-    <a class="btn" href="#contact">Contact</a>
-  </header>
 
-  <main class="container">
-    <section>
-      <h2>About</h2>
-      <p>
-        Diploma in Civil Engineering with experience in CAD drafting,
-        structural detailing, and public works projects. Interested in
-        sustainable construction and energy-efficient design.
-      </p>
-    </section>
+    <div class="container">
+        <div class="bento-grid">
+            
+            <div class="card hero">
+                <div class="status-badge"><span class="dot"></span> Open for Opportunities</div>
+                <div class="profile-main">
+                    <h1>MD Jubair bin Hasan</h1>
+                    <p>Civil Engineer & CAD Specialist</p>
+                    <div class="btn-group">
+                        <a href="mailto:jubayerhasan782005@gmail.com" class="btn btn-primary">
+                            <i class="fa-solid fa-handshake"></i> Let's work together
+                        </a>
+                        <a href="cv.pdf" download class="btn btn-secondary">
+                            <i class="fa-solid fa-file-pdf"></i> Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-    <section>
-      <h2>Skills</h2>
-      <ul class="grid">
-        <li>AutoCAD</li>
-        <li>Civil 3D</li>
-        <li>ETABS</li>
-        <li>Revit</li>
-        <li>SketchUp</li>
-        <li>Excel</li>
-      </ul>
-    </section>
+            <div class="card about-me">
+                <h3><i class="fa-solid fa-user"></i> About Me</h3>
+                <p>I am a Civil Engineer specializing in CAD drafting and structural design. My expertise lies in producing precise technical drawings, structural layouts, and comprehensive engineering documentation using industry-standard tools like AutoCAD, Revit, and ETABS. I am dedicated to ensuring engineering precision and delivering high-quality drafting solutions.</p>
+            </div>
 
-    <section>
-      <h2>Experience</h2>
-      <div class="card">
-        <h3>Public Works Department (PWD), Chattogram</h3>
-        <p class="muted">Trainee / CAD Drafting</p>
-        <p>
-          Structural drawings, quantity take-off support, and design
-          documentation for government infrastructure projects.
-        </p>
-      </div>
-    </section>
+            <div class="card skills-main">
+                <h3><i class="fa-solid fa-laptop-code"></i> Softwares</h3>
+                <div class="skill-list">
+                    <span class="skill-tag">AUTO CAD</span>
+                    <span class="skill-tag">Civil 3D</span>
+                    <span class="skill-tag">ETABS</span>
+                    <span class="skill-tag">SAFE</span>
+                    <span class="skill-tag">Revit Structure</span>
+                    <span class="skill-tag">Sketch-up</span>
+                </div>
+            </div>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:juabyerhasan782005@gmail.com">juabyerhasan782005@gmail.com</a></p>
-      <p>Location: Bangladesh</p>
-    </section>
-  </main>
+            <div class="card">
+                <h3><i class="fa-solid fa-language"></i> Languages</h3>
+                <div class="lang-item">German <span class="level-tag">B1 Level</span></div>
+                <div class="lang-item">English <span class="level-tag">B1 Level</span></div>
+            </div>
 
-  <footer class="container footer">
-    <p>© <span id="year"></span> Md Jubair Bin Hasan</p>
-  </footer>
+            <div class="card experience">
+                <h3><i class="fa-solid fa-briefcase"></i> Experience</h3>
+                <p class="company-name">Public Works Department (PWD)</p>
+                <p class="location-date">Internship | Chattogram, BD</p>
+                <p class="job-desc">Gained hands-on experience in technical drafting, updating architectural layouts, and producing detailed CAD drawings for public infrastructure projects.</p>
+            </div>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+            <div class="card contact-social">
+                <h3>Let's Connect</h3>
+                <div class="social-grid">
+                    <a href="https://www.facebook.com/share/1ZPUYFAwWW/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/8801736467273" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="card map-card">
+                <div class="map-overlay">Chattogram, BD</div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118073.45686004928!2d91.73142240974911!3d22.3614532512613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8a64095dfd3%3A0x5015cc5ca627373e!2sChittagong!5e0!3m2!1sen!2sbd!4v1715800000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+    </div>
+
+    <nav class="bottom-nav">
+        <button class="nav-link active"><i class="fa-solid fa-house"></i></button>
+        <button class="nav-link"><i class="fa-solid fa-folder-open"></i></button>
+        <button id="theme-toggle" class="nav-link"><i class="fa-solid fa-moon"></i></button>
+    </nav>
+
+    <script>
+        const toggle = document.getElementById('theme-toggle');
+        toggle.onclick = () => {
+            document.body.classList.toggle('dark-mode');
+            const isDark = document.body.classList.contains('dark-mode');
+            toggle.innerHTML = isDark ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+        };
+    </script>
 </body>
 </html>
